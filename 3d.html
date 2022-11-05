@@ -1,0 +1,132 @@
+<!--------------------------------------------------------------------------------
+3D PRINTING
+Ruby Lu  |  3/2/2022  |  ICS3UE
+--------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Nova+Mono&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>3D Printing</title>
+	</head>
+	<body class="light">
+		<ul class="navbar">
+			<!-- horizontal navigation bar -->
+			<li class="navbar"><a href="references.html">References</a></li>
+			<li class="navbar"><a href="vr.html">Virtual Reality</a></li>
+			<li class="navbar"><a class="active" href="3d.html">3D Printing</a></li>
+			<li class="navbar"><a href="sdc.html">Self-Driving Cars</a></li>
+			<li class="navbar"><a href="ai.html">Artificial Intelligence</a></li>
+			<li class="navbar"><a href="index.html">Home</a></li>
+		</ul>
+		<div class="header">
+			<!-- header with image and page title -->
+			<h2>3D Printing</h2>
+			<br id="define">
+		</div>
+		<div class="vertical-nav">
+			<!-- vertical navigation bar -->
+			<a href="#define" class="nav-button"></a>
+			<p>What is 3D Printing?</p>
+			<br><br>
+			<a href="#process" class="nav-button"></a>
+			<p>How Does 3D Printing Work?</p>
+			<br><br>
+			<a href="#benefits" class="nav-button"></a>
+			<p>Benefits & Price of 3D Printing</p>
+			<br><br>
+			<a href="#applications" class="nav-button"></a>
+			<p>Applications of 3D Printing</p>
+		</div>
+		<div class="section-light" style="height: 450px">
+			<!-- SECTION 1: WHAT IS 3D PRINTING -->
+			<h3>What is 3D Printing?</h3>
+			<p>3D printing is a method of manufacturing that involves using computer-aided design (CAD) to produce <strong>3D objects</strong> with a variety of materials like molten plastic or powders. 3D printers use a <strong>layering method</strong> to create objects. In other words, they work from the ground up and add layers after layers until the object looks like the design.</p><br>
+			<div class="row">
+				<!-- images of objects created with 3d printing -->
+				<div class="column" style="background-image: url(3d-print-sunglasses.jpg); float:left; border: 2px solid #062746">
+					<div class="caption">
+						<!-- caption for each image -->
+						<p>3D printing can be used to<br>produce rigid objects.</p>
+					</div>
+				</div>
+				<div class="column" style="background-image: url(3d-print-phonecase.jpg); float:right; border: 2px solid #062746">
+					<div class="caption">
+						<p>It can also be used to produce flexible<br>objects using hybrid rubber.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br id="process">
+		<div class="section-dark">
+			<!-- SECTION 2: HOW DOES 3D PRINTING WORK? -->
+			<h3>How do 3D Printers Work?</h3>
+			<h4>1) 3D Modelling</h4>
+			<!-- heading for each step -->
+			<hr class="light-line">
+			<!-- description for each step -->
+			<p>The first step of the 3D printing process is always <strong>3D modelling</strong>. Objects need to be designed in a 3D modelling software in order to maximize precision and let the 3D printer know what needs to be done.</p><br>
+			<h4>2) Slicing</h4>
+			<hr class="light-line">
+			<p>In order for the printer to produce the object, the design needs to be <strong>“sliced” into layers</strong>. Slicing software can scan each layer of the model and tell the printer how to recreate that layer.</p><br>
+			<h4>3) Printing Process</h4>
+			<hr class="light-line">
+			<p>3D printers have a nozzle that moves back and forth to <strong>dispense a wax or plastic-like polymer layer by layer</strong>. To create a 3D object, the printer essentially needs to add hundreds or thousands of 2D prints on top of each other.</p><br><br>
+			<img src="3d-printing-process.png" class="large-img" style="border:0px" alt="3D Printing Process"><br><br id="benefits">
+		</div>
+		<div class="section-light">
+			<!-- SECTION 3: BENEFITS & PRICE OF 3D PRINTING -->
+			<h3>Benefits of 3D Printing:</h3>
+			<img src="dentistry.jpg" class="dentistry-img" alt="3D Printing Used in Dentistry">
+			<ul style="width:45%;">
+				<!-- unordered list of 3d printing benefits -->
+				<li>3D printing can be extremely <strong>precise</strong>, since 3D modelling allows products to be customized down to the smallest details. For example, in dentistry, 3D software can be used to design custom teeth alignment tools that precisely fit the individual.<br><br></li>
+				<li>3D printing can be used for <strong>rapid prototyping</strong>. Many companies can now use 3D printers to create prototypes in a matter of hours. It is estimated that 3D printers can make the prototyping process 10 times faster and 5 times cheaper.<br><br></li>
+				<li>There is more that can go wrong with traditional manufacturing because of <strong>human error and potential problems with machinery</strong>.<br><br></li>
+			</ul>
+			<h3>Price of 3D Printing:</h3>
+			<!-- price of 3d printing -->
+			<p>The cost of 3D printers can vastly differ based on the size, specialty, or use. 3D printers can be as <strong>cheap as $200</strong>, but large industrial 3D printers can cost <strong>as much as $100,000</strong>. An average consumer would pay <strong>roughly $650</strong> for a 3D printer. In the future, prices are expected to significantly decrease as a result of 3D printing technology becoming more widely-adopted and widespread.</p><br id="applications">
+		</div>
+		<div class="section-dark" style="height: 650px">
+			<!-- SECTION 4: APPLICATIONS OF 3D PRINTING -->
+			<h3>Examples of Applications of 3D Printing:</h3>
+			<!-- labels -->
+			<h4 class="label-light" style="float:left;">Bioprinting</h4>
+			<h4 class="label-light" style="float:right;">Construction</h4>
+			<div class="row">
+				<!-- images of applications -->
+				<div class="column" style="background-image: url(bioprinting.jpg); float:left;">
+					<div class="hidden-text">
+						<p>3D printers can use biomaterials to create replicas of natural structures and tissues within the human body. Medical devices like prosthetics can also be 3D printed.</p>
+					</div>
+				</div>
+				<div class="column" style="background-image: url(construction.jpg); float:right">
+					<div class="hidden-text">
+						<p>3D printers are capable of building walls and processing cement. They can sometimes help create buildings and construction components more intricately than traditional manufacturing.</p>
+						<br>
+					</div>
+				</div>
+			</div>
+			<h4 class="label-light" style="float:left;">Aerospace Technology</h4>
+			<h4 class="label-light" style="float:right">Art & Jewelry</h4>
+			<div class="row">
+				<div class="column" style="background-image: url(aerospace.jpg); float:left">
+					<div class="hidden-text">
+						<p>In the aerospace industry, 3D printing can often provide a way to reduce the number of parts, reduce weight, and increase strength.</p>
+					</div>
+				</div>
+				<div class="column" style="background-image: url(jewelry.jpg); float:right">
+					<div class="hidden-text">
+						<p>3D printing allows for unique or customized pieces to be produced faster and at a lower cost. With 3D printing, jewelry makers can also experiment with designs that would be very difficult for traditional jewelry making methods to create.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Ruby Lu<br>ICS3UE<br>Mar 2022</p>
+		</div>
+	</body>
+</html>

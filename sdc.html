@@ -1,0 +1,154 @@
+<!--------------------------------------------------------------------------------
+SELF-DRIVING CARS
+Ruby Lu  |  3/2/2022  |  ICS3UE
+--------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Nova+Mono&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Self-Driving Cars</title>
+	</head>
+	<body class="dark">
+		<ul class="navbar">
+			<!-- horizontal navigation bar -->
+			<li class="navbar"><a href="references.html">References</a></li>
+			<li class="navbar"><a href="vr.html">Virtual Reality</a></li>
+			<li class="navbar"><a href="3d.html">3D Printing</a></li>
+			<li class="navbar"><a class="active" href="sdc.html">Self-Driving Cars</a></li>
+			<li class="navbar"><a href="ai.html">Artificial Intelligence</a></li>
+			<li class="navbar"><a href="index.html">Home</a></li>
+		</ul>
+		<div class="header">
+			<!-- header with image and page title -->
+			<h2>Self-Driving Cars</h2>
+			<br id="define">
+		</div>
+		<div class="vertical-nav">
+			<!-- vertical navigation bar -->
+			<a href="#define" class="nav-button"></a>
+			<p>What are Self-Driving Cars?</p>
+			<br><br>
+			<a href="#example" class="nav-button"></a>
+			<p>Example: Google's Waymo</p>
+			<br><br>
+			<a href="#levels" class="nav-button"></a>
+			<p>Levels of Autonomy</p>
+		</div>
+		<div class="section-dark">
+			<!-- SECTION 1: WHAT ARE SELF-DRIVING CARS? -->
+			<h3>What are Self-Driving Cars?</h3>
+			<p>Self-driving cars, also known as autonomous cars or driverless cars, are vehicles that can travel between destinations <strong>without human assistance</strong>. To be fully autonomous, vehicles must be able to navigate, without any sort of human intervention, over roads that have not been adapted for its use.</p><br><br><br><br>
+			<img src="self-driving.jpg" class="large-img" alt="Self Driving Car">
+			<br><br><br>
+			<h3>How do Self-Driving Cars Work?</h3>
+			<p>To build systems that can drive autonomously, a vast amount of data is used from <strong>image recognition systems, machine learning, and neural networks</strong>. Patterns in the data are identified by neural networks and fed into machine learning algorithms. Data may include camera images from which the neural network can identify traffic lights, trees, curbs, pedestrians, street signs, and other elements of the driving environment.</p>
+			<br id="example">
+		</div>
+		<div class="section-light">
+			<!-- SECTION 2: EXAMPLE -->
+			<h3>Example: Google's Waymo</h3>
+			<p>Google’s Waymo is almost entirely autonomous. In ideal conditions, the car can drive itself. The car still requires a human driver to be present, but only to override the system if needed.</p><br>
+			<div class="dark-box-border" style="margin: 0px">
+				<!-- dark box containing information about how Waymo works -->
+				<div class="dark-box">
+					<h4 style="color: #05ACE8">This is how Google's Waymo Vehicles Work:</h4>
+					<ul>
+						<!-- unordered list describing Waymo's features -->
+						<li>The passengers specifies a destination and the car’s software <strong>calculates a route</strong>.<br><br></li>
+						<li>Rotating Lidar (light detection and ranging) sensors mounted on the roof monitor a range of 60 meters around the car and creates a <strong>dynamic, three-dimensional map</strong> of the car’s surroundings.<br><br></li>
+						<li>There is a sensor on the left rear wheel that <strong>monitors sideways movement</strong> and identifies the car’s position on the 3D map.<br><br></li>
+						<li>The front and rear end bumpers have radar systems that <strong>calculate distances</strong> to obstacles<br><br></li>
+						<li>The car’s software is connected to all the sensors and <strong>collects input</strong> from video cameras and Google Street View.<br><br></li>
+						<li>The car’s AI <strong>simulates human decision-making processes</strong> for actions such as steering and brakes.<br><br></li>
+						<li>The car’s software uses Google Maps to <strong>take note of objects</strong> like landmarks, traffic signs, and traffic lights in advance.<br><br></li>
+						<li>There is an <strong>override</strong> function that allows the passenger to take control of the vehicle when needed.<br><br></li>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<h4>Waymo in Action:</h4>
+			<!-- embedded video -->
+			<iframe width=100% height="425" src="https://www.youtube.com/embed/z5eaOo-2eJM"></iframe>
+			<br><br>
+			<p>Most of the cars available for consumers today still have <strong>low levels of autonomy</strong>. However, there are some self-driving features that are available in many cars. These include:</p>
+			<ul>
+				<!-- unordered list containing examples of self-driving features -->
+				<li><strong>Hands-free steering</strong> (centering the car without the driver needing to keep their hands on the wheel)</li>
+				<li><strong>Adaptive cruise control</strong> (can automatically maintain an acceptable distance behind the car in front)</li>
+				<li><strong>Lane-centering steering</strong> (intervening when the driver is crossing lane markings).</li>
+			</ul>
+			<br id="levels">
+		</div>
+		<div class="section-dark">
+			<!-- SECTION 3: LEVELS OF AUTONOMY -->
+			<h3>Levels of Autonomy:</h3>
+			<p>There are six levels of automation, from level 0 to level 5.</p>
+			<img src="levels-of-automation.png" style="width: 100%" alt="Levels of Automation">
+			<div class="button-row">
+				<!-- row of buttons for level 0 - 6 -->
+				<button>Level 0</button>
+				<div class="level-desc" style="display: block">
+					<div class="section-light">
+						<!-- by default, the description for level 0 is shown -->
+						<h4>Level 0:</h4>
+						<hr>
+						<p>The car does <strong>not have any control</strong> over its operation and the human does all the driving.</p>
+					</div>
+				</div>
+				<!-- level 1 button & description -->
+				<button>Level 1</button>
+				<div class="level-desc">
+					<div class="section-light">
+						<!-- other level descriptions appear on hover -->
+						<h4>Level 1:</h4>
+						<hr>
+						<p>The car’s advanced driver assistance system (ADAS) can <strong>support</strong> the driver with steering, accelerating, or braking (but not simultaneously).</p>
+					</div>
+				</div>
+				<!-- level 2 button & description -->
+				<button>Level 2</button>
+				<div class="level-desc">
+					<div class="section-light">
+						<h4>Level 2:</h4>
+						<hr>
+						<p>The ADAS can steer or brake/accelerate simultaneously, but the driver needs to remain <strong>fully aware</strong> behind the wheel.</p>
+					</div>
+				</div>
+				<!-- level 3 button & description -->
+				<button>Level 3</button>
+				<div class="level-desc">
+					<div class="section-light">
+						<h4>Level 3:</h4>
+						<hr>
+						<p>The car’s automated driving system (ADS) can perform <strong>most parts</strong> of driving, but the driver must be ready to take control when necessary.</p>
+					</div>
+				</div>
+				<!-- level 4 button & description -->
+				<button>Level 4</button>
+				<div class="level-desc">
+					<div class="section-light">
+						<h4>Level 4:</h4>
+						<hr>
+						<p>The ADS can perform all driving tasks in <strong>certain conditions</strong>, and human attention is <strong>generally</strong> not required.</p>
+					</div>
+				</div>
+				<!-- level 5 button & description -->
+				<button>Level 5</button>
+				<div class="level-desc">
+					<div class="section-light">
+						<h4>Level 5:</h4>
+						<hr>
+						<p>The ADS essentially acts as a chauffeur and can perform <strong>all parts of driving</strong> in all circumstances. Human attention is not required at all.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="footer">
+			<p>Ruby Lu<br>ICS3UE<br>Mar 2022</p>
+		</div>
+	</body>
+</html>
